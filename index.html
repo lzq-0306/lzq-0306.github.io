@@ -18,7 +18,7 @@
 -->
 <html lang="en">
   <head>
-    <title>Peach Pit</title>
+    <title>Text Editor</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,56 +74,55 @@
 
     <header>
       <h1>
-        <span id="headerFileName">Peach Pit</span><span id="modifiedHeader" class="hidden">*</span>
-        <span id="headerAppName" class="hidden"> - Peach Pit</span>
+        <span id="headerFileName">Text Editor</span><span id="modifiedHeader" class="hidden">*</span>
+        <span id="headerAppName" class="hidden"> - Text Editor</span>
       </h1>
       <nav class="menubar">
         <div id="menuFile" class="menuContainer">
           <button id="butFile" class="menuTop" aria-label="File" aria-haspopup="true" aria-expanded="false">
-            <span class="kbdShortcut">文件</span>
+            <span class="kbdShortcut">F</span>ile
           </button>
           <div role="menu" class="menuItemContainer hidden">
             <button id="butNew" type="button" role="menuitem">
-              新建 <kbd>^N</kbd>
+              New <kbd>^N</kbd>
             </button>
             <button id="butOpen" type="button" role="menuitem">
-              打开 <kbd>^O</kbd>
+              Open <kbd>^O</kbd>
             </button>
             <button id="butSave" type="button" role="menuitem">
-              保存 <kbd>^S</kbd>
+              Save <kbd>^S</kbd>
             </button>
             <button id="butSaveAs" type="button" role="menuitem">
-              另存为 <kbd>^&uparrow;S</kbd>
+              Save As <kbd>^&uparrow;S</kbd>
             </button>
             <button id="butClose" type="button" role="menuitem">
-              关闭 <kbd>^W</kbd>
+              Close <kbd>^W</kbd>
             </button>
           </div>
         </div>
         <div id="menuRecent" class="menuContainer">
           <button id="butRecent" class="menuTop" aria-label="Recent" aria-haspopup="true" aria-expanded="false">
-            <span class="kbdShortcut">最近</span>
+            <span class="kbdShortcut">R</span>ecent
           </button>
           <div id="recentContainer" role="menu" class="menuItemContainer hidden">
           </div>
         </div>
         <div id="menuEdit" class="menuContainer">
           <button id="butEdit" class="menuTop" aria-label="Edit" aria-haspopup="true" aria-expanded="false">
-              <span class="kbdShortcut">编辑</span>
+              <span class="kbdShortcut">E</span>dit
           </button>
           <div role="menu" class="menuItemContainer hidden">
             <button id="butCut" type="button" role="menuitem">
-              剪切 <kbd>^X</kbd>
+              Cut <kbd>^X</kbd>
             </button>
             <button id="butCopy" type="button" role="menuitem">
-              复制 <kbd>^C</kbd>
+              Copy <kbd>^C</kbd>
             </button>
             <button id="butPaste" type="button" role="menuitem">
-              粘贴 <kbd>^V</kbd>
+              Paste <kbd>^V</kbd>
             </button>
           </div>
         </div>
-		<!--
         <div id="menuView" class="menuContainer">
           <button id="butView" class="menuTop" aria-label="View" aria-haspopup="true" aria-expanded="false">
               <span class="kbdShortcut">V</span>iew
@@ -146,14 +145,11 @@
             </button>
           </div>
         </div>
-		-->
-		<!--
         <div id="menuInstall" class="menuContainer">
           <button id="butInstall" aria-label="Install" class="menuTop hidden">
               <span class="kbdShortcut">I</span>nstall
           </button>
         </div>
-		-->
       </nav>
     </header>
 
@@ -163,8 +159,7 @@
     <a id="aDownloadFile" download></a>
     <input type="file" id="filePicker">
 
-    <!--
-	<details id="footer" class="footer">
+    <details id="footer" class="footer">
       <summary>About
         <span>
           <span id="modifiedFooter" class="hidden">*</span>
@@ -193,7 +188,7 @@
         </small>
       </div>
     </details>
-	-->
+
     <!-- import the webpage's javascript file -->
     <!-- <script src="/inline-scripts/base.js" inline></script> -->
     <script src="/inline-scripts/idb-keyval-iife.js" inline></script>
