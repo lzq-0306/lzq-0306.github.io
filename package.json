@@ -1,6 +1,6 @@
 {
   "name": "text-editor",
-  "description": "Peach Pit Editor - Demo for the HTML5 File System Access API.",
+  "description": "Text Editor - Demo for the HTML5 File System Access API.",
   "version": "0.0.13",
   "repository": {
     "type": "git",
