@@ -1,7 +1,7 @@
 {
   "name": "Peach Pit Editor",
   "short_name": "PeachPitEditor",
-  "description": "Peach Pit Editor - Demo for the HTML5 File System Access API.",
+  "description": "Peach Pit Editor",
   "start_url": "./",
   "display": "standalone",
   "theme_color": "#1a237e",
